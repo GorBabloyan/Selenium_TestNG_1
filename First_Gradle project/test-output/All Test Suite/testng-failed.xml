@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="https://demo.opencart.com/"/>
+  <test thread-count="5" name="C:/Users/user/First_Gradle project/src/Test/java/_5_TestNG/TestNg.java(failed)">
+    <classes>
+      <class name="TestNG.TestNg_8_Parameters">
+        <methods>
+          <include name="finish"/>
+          <include name="setup"/>
+          <include name="title"/>
+        </methods>
+      </class> <!-- _5_TestNG.TestNg_8_Parameters -->
+    </classes>
+  </test> <!-- C:/Users/user/First_Gradle project/src/Test/java/_5_TestNG/TestNg.java(failed) -->
+  <test thread-count="5" name="parameters(failed)">
+    <classes>
+      <class name="TestNG.TestNg_8_Parameters">
+        <methods>
+          <include name="finish"/>
+          <include name="setup"/>
+          <include name="title"/>
+        </methods>
+      </class> <!-- _5_TestNG.TestNg_8_Parameters -->
+    </classes>
+  </test> <!-- parameters(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

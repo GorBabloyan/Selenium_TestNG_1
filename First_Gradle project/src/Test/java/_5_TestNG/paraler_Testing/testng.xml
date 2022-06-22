@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="All Test Suite" parallel="methods" thread-count="3">-->
+<!--    <suite name="All Test Suite" parallel="classes" thread-count="3">-->
+        <suite name="All Test Suite" parallel="tests" thread-count="2">
+    <test name="parameters1">
+        <classes>
+            <class name="_5_TestNG.paraler_Testing.TestNG_10_ParralerTest1"/>
+        </classes>
+    </test>
+
+    <test name="parameters2">
+        <classes>
+            <class name="_5_TestNG.paraler_Testing.TestNG_10_ParralerTest2"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="firefox"></parameter>
+    <parameter name="URL" value="https://demo.opencart.com/"></parameter>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/user/First_Gradle project/src/Test/java/_5_TestNG/TestNg.java">
+
+        <!--        <groups>-->
+        <!--            <run>-->
+        <!--                <exclude name="regression"/>-->
+        <!--                <include name="sanity"/>-->
+        <!--                <include name="smoke"/>-->
+
+        <!--            </run>-->
+        <!--        </groups>-->
+
+        <classes>
+            <class name="_5_TestNG.TestNg_8_Parameters"/>
+        </classes>
+    </test>
+
+
+
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="URL" value="https://demo.opencart.com/"></parameter>
+
+    <test name="parameters">
+        <classes>
+            <class name="_5_TestNG.TestNg_8_Parameters"/>
+        </classes>
+    </test>
+</suite>
